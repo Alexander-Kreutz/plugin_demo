@@ -15,8 +15,7 @@ demo.config(['$translateProvider', 'i18nc', function($translateProvider, i18nc) 
 	.translations('it', i18nc.it)
 	.translations('fr', i18nc.fr)
 	.fallbackLanguage('en');
-	
-	console.log("done1");
+		
 }]);
 // The data importer
 demo.factory('importer', ['$http' , '$translate', 'midataServer', '$q', function($http, $translate, midataServer, $q) {

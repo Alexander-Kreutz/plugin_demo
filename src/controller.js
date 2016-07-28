@@ -6,8 +6,7 @@ demo.controller('MyController', ['$scope', '$translate', '$location', 'midataSer
 	    midataPortal.autoresize();
 	    
 	    // Use language from MIDATA portal
-	    $translate.use(midataPortal.language);
-	    console.log(midataPortal.language);
+	    $translate.use(midataPortal.language);	 
 	            				
 		// get authorization token from portal
 		var authToken = $location.search().authToken;
